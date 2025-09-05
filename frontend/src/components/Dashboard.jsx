@@ -1,6 +1,4 @@
 
-
-
 import { useState } from "react";
 import { FaTwitter, FaFacebook, FaGithub, FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -46,9 +44,12 @@ function Dashboard({ children }) {
       </div>
 
       {/* Main Content */}
-      <div className="ml-[250px] flex-1 min-h-screen overflow-y-auto p-6">
+      {/* <div className="ml-[250px] flex-1 min-h-screen overflow-y-auto p-6">
         {children}
-      </div>
+      </div> */}
+      <div className="flex-1 min-h-screen overflow-y-auto p-6 md:ml-[250px]">
+  {children}
+</div>
 
       {/* Mobile Navbar Button */}
       <div className="md:hidden fixed top-0 right-0 p-4 bg-gray-100 shadow">
