@@ -12,7 +12,7 @@ import AddProject from "./page/AddProject"
 import AddBlog from "./page/AddBlog"
 
 function App(){
-  return    <div className="flex ">
+  return    <div className="flex gap-10 ">
       <div>
       <Dashboard/>
       </div>
