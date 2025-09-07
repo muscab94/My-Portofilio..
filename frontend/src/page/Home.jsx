@@ -124,7 +124,7 @@ function Home() {
       {/* Text Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6">
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-wide drop-shadow-lg">
-          Muscab Hassan
+          I'm Muscab Hassan
         </h1>
 
         <p className="mt-6 text-xl md:text-2xl max-w-2xl flex gap-1 h-10">
